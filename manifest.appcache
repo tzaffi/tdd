@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# Revision 1407160430685
+# Revision 1407162429117
 
 CACHE:
-index.html
 example_tdd_in_pycharm/README.html
+index.html
 glossary/README.html
 links/README.html
 tdd_in_context/README.html
