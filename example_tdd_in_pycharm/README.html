@@ -32,7 +32,7 @@
 
 
         
-    <div class="book"  data-level="2" data-basepath=".." data-revision="1407122543634">
+    <div class="book"  data-level="2" data-basepath=".." data-revision="1407123916373">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -238,11 +238,46 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_898">
+                    <section class="normal" id="section-gitbook_1466">
                     
                         <h1 id="example-tdd-in-pycharm">Example: TDD in PyCharm</h1>
-<p>PyCharm makes it easy to foll TDD.</p>
+<h2 id="pycharm-makes-it-easy-to-follow-tdd">PyCharm makes it easy to follow TDD.</h2>
 <p><img src="http://content.screencast.com/users/tzaffi/folders/Jing/media/37a2ddcb-36c5-4be7-af42-3561e5ef8768/00000049.png" alt="PyCharm TDD" title="PyCharm TDD"></p>
+<h2 id="google-code-jams-data-packing-problem">Google Code Jam&#39;s Data Packing problem</h2>
+<h3 id="input">Input:</h3>
+<p>Number of challenges, followed by file and disc size info.</p>
+<pre class="io-content">3
+3 100
+10 20 70
+4 100
+30 40 60 70
+5 100
+10 20 30 40 60
+</pre>
+
+<h3 id="output">Output:</h3>
+<p>The number of discs needed to store the files.</p>
+<pre class="io-content">Case #1: 2
+Case #2: 2
+Case #3: 3
+</pre>
+
+<h2 id="first-try-just-write-the-code-test-at-the-end">First Try: Just write the code. Test at the end.</h2>
+<p><a href="https://github.com/tzaffi/tdd/blob/gh-pages/tdd_basic/code_jam_data_packing.py" target="_blank">Solution 1</a></p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>Time: 75 minutes (40 minutes spent debugging monster function)</li>
+<li>Cyclomatic complexity: worst method had 9 and a B grade</li>
+<li>Coding style: ugly. Will be hard to understand next week.</li>
+</ul>
+<h2 id="second-try-follow-strict-tdd">Second Try: Follow strict TDD</h2>
+<p><a href="https://github.com/tzaffi/tdd/blob/gh-pages/tdd_basic/test_code_jam_data_packing_tdd.py" target="_blank">TDD Unit Tests for Solution 2</a>
+<a href="https://github.com/tzaffi/tdd/blob/gh-pages/tdd_basic/code_jam_data_packing_tdd.py" target="_blank">Solution 2 code</a></p>
+<ul>
+<li>Time: 45 minutes (almost no time spent debugging)</li>
+<li>Cyclomatic complexity: worst method had 6 and got straight A&#39;s for all methods</li>
+<li>Coding style: very good. Compartmentalized design will make it easy to understand and refactor. Unit tests will catch any future issues that could arise from new requirements.</li>
+</ul>
 
                     
                     </section>
