@@ -32,7 +32,7 @@
 
 
         
-    <div class="book"  data-level="2" data-basepath=".." data-revision="1407123916373">
+    <div class="book"  data-level="2" data-basepath=".." data-revision="1407124812087">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -238,11 +238,17 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_1466">
+                    <section class="normal" id="section-gitbook_1642">
                     
                         <h1 id="example-tdd-in-pycharm">Example: TDD in PyCharm</h1>
 <h2 id="pycharm-makes-it-easy-to-follow-tdd">PyCharm makes it easy to follow TDD.</h2>
 <p><img src="http://content.screencast.com/users/tzaffi/folders/Jing/media/37a2ddcb-36c5-4be7-af42-3561e5ef8768/00000049.png" alt="PyCharm TDD" title="PyCharm TDD"></p>
+<h2 id="example-of-a-unit-test">Example of a unit test:</h2>
+<pre><code class="lang-python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">test_parse_input</span><span class="hljs-params">(self)</span>:</span>
+        self.assertDictEqual(self.expected_parse, self.data_packer.parse_input())
+        self.assertEqual(self.expected_parse[<span class="hljs-string">"T"</span>], self.data_packer.T)
+        self.assertListEqual(self.expected_parse[<span class="hljs-string">"challenges"</span>], self.data_packer.challenges)
+</code></pre>
 <h2 id="google-code-jams-data-packing-problem">Google Code Jam&#39;s Data Packing problem</h2>
 <h3 id="input">Input:</h3>
 <p>Number of challenges, followed by file and disc size info.</p>
@@ -277,6 +283,13 @@ Case #3: 3
 <li>Time: 45 minutes (almost no time spent debugging)</li>
 <li>Cyclomatic complexity: worst method had 6 and got straight A&#39;s for all methods</li>
 <li>Coding style: very good. Compartmentalized design will make it easy to understand and refactor. Unit tests will catch any future issues that could arise from new requirements.</li>
+</ul>
+<h2 id="some-useful-unittest-constructs">Some useful <code>unittest</code> constructs:</h2>
+<ul>
+<li><code>setUp()</code>: Let&#39;s you keep access any data that you want to keep around for all (or most of) the tests.</li>
+<li>various <strong>asserts</strong>:</li>
+<li><code>
+</code></li>
 </ul>
 
                     
