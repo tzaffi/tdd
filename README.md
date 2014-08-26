@@ -13,3 +13,6 @@
 
 ### 4. Practical TDD
 ### 5. TDD in Javascript and WebStorm
+
+<hr/>
+[Online Version on GitHub](http://tzaffi.github.io/tdd/)
