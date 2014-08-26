@@ -30,7 +30,7 @@
 
 
         
-    <div class="book"  data-level="5" data-basepath=".." data-revision="1407201144616">
+    <div class="book"  data-level="7" data-basepath=".." data-revision="1409060204641">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -168,13 +168,45 @@
         </li>
     
         
-        <li class="chapter " data-level="4" data-path="links/README.html">
+        <li class="chapter " data-level="4" data-path="practical_tdd/README.html">
+            
+                
+                    <a href="../practical_tdd/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Practical TDD
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="tdd_in_javascript_and_webstorm/README.html">
+            
+                
+                    <a href="../tdd_in_javascript_and_webstorm/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         TDD in Javascript and WebStorm
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="links/README.html">
             
                 
                     <a href="../links/README.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>4.</b>
+                            <b>6.</b>
                         
                          Links
                     </a>
@@ -184,13 +216,13 @@
         </li>
     
         
-        <li class="chapter active" data-level="5" data-path="glossary/README.html">
+        <li class="chapter active" data-level="7" data-path="glossary/README.html">
             
                 
                     <a href="../glossary/README.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>5.</b>
+                            <b>7.</b>
                         
                          Glossary
                     </a>
@@ -215,34 +247,41 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 100%;min-width: 80%;"></div>
+        <div class="inner" style="width: 100%;min-width: 85.71428571428571%;"></div>
     </div>
     <div class="chapters">
     
         <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
     
-        <a href="../what_is_tdd/README.html" title="What is TDD?" class="chapter done new-chapter" data-progress="1" style="left: 20%;"></a>
+        <a href="../what_is_tdd/README.html" title="What is TDD?" class="chapter done new-chapter" data-progress="1" style="left: 14.285714285714286%;"></a>
     
-        <a href="../example_tdd_in_pycharm/README.html" title="TDD in Python and PyCharm" class="chapter done new-chapter" data-progress="2" style="left: 40%;"></a>
+        <a href="../example_tdd_in_pycharm/README.html" title="TDD in Python and PyCharm" class="chapter done new-chapter" data-progress="2" style="left: 28.571428571428573%;"></a>
     
-        <a href="../tdd_in_context/README.html" title="TDD in Context" class="chapter done new-chapter" data-progress="3" style="left: 60%;"></a>
+        <a href="../tdd_in_context/README.html" title="TDD in Context" class="chapter done new-chapter" data-progress="3" style="left: 42.857142857142854%;"></a>
     
-        <a href="../links/README.html" title="Links" class="chapter done new-chapter" data-progress="4" style="left: 80%;"></a>
+        <a href="../practical_tdd/README.html" title="Practical TDD" class="chapter done new-chapter" data-progress="4" style="left: 57.142857142857146%;"></a>
     
-        <a href="../glossary/README.html" title="Glossary" class="chapter done new-chapter" data-progress="5" style="left: 100%;"></a>
+        <a href="../tdd_in_javascript_and_webstorm/README.html" title="TDD in Javascript and WebStorm" class="chapter done new-chapter" data-progress="5" style="left: 71.42857142857143%;"></a>
+    
+        <a href="../links/README.html" title="Links" class="chapter done new-chapter" data-progress="6" style="left: 85.71428571428571%;"></a>
+    
+        <a href="../glossary/README.html" title="Glossary" class="chapter done new-chapter" data-progress="7" style="left: 100%;"></a>
     
     </div>
 </div>
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_202">
+                    <section class="normal" id="section-gitbook_5">
                     
-                        <h1 id="glossary-and-python-packages">Glossary and Python Packages</h1>
+                        <h1 id="glossary-and-languages-specific-packages-or-code-references">Glossary and Languages Specific Packages or Code References</h1>
 <ul>
-<li><strong>Unit Test</strong>: A test of a single functional code unit. (<code>unittest</code>, <code>nose</code>, <code>PyTest</code>)</li>
-<li><strong>Mocking and Patching</strong>: Techniques that isolate a functional unit from its context and allow creating useful unit tests that would be impossible otherwise. (<code>mock.Mock</code> and <code>mock.patch</code>)</li>
-<li><strong>Cyclomatic Complexity</strong>: A way of measuring how complex code is. The higher the number the more spaghetti&#39;ish. (<code>radon</code> and <code>flake8</code>)</li>
+<li><strong>Unit Test</strong>: A test of a single functional code unit. (Python: <code>unittest</code>, <code>nose</code>, <code>PyTest</code>, Javascript: <code>Jasmine</code>, <code>Mocha</code>)</li>
+<li><strong>Mocking and Patching</strong>: Techniques that isolate a functional unit from its context and allow creating useful unit tests that would be impossible otherwise. (Python: <code>mock.Mock</code> and <code>mock.patch</code>)</li>
+<li><strong>Fixture</strong>: a part of the code that prepares the environment in order to perform one or more tests, and any associated cleanup actions. This may involve, for example, creating temporary or proxy databases, directories, or starting a server process. [snagged from Python&#39;s official docs] (in <em>xUnit</em>: <code>setUp()</code>, <code>tearDown()</code>. In <em>BDD frameworks</em>: <code>beforeEach()</code>, <code>afterEach()</code>)</li>
+<li><strong>Test Runner</strong>: a framework that manages the running of unit tests and any associated tools such as coverage analysis and results reporting as well as environments (such as different web browsers). (Python: <code>nose</code>, Javascript: <code>karma</code>)</li>
+<li><strong>Code Coverage</strong>: a measure of the percentage of code that is reached through unit tests. Depending on how sophisticated the package, coverage may or may not measure if every logical pathway is being reached. (Python: <code>coverage</code>, Javascript: <code>istanbul</code>)</li>
+<li><strong>Cyclomatic Complexity</strong>: A way of measuring how complex code is. The higher the number the more spaghetti&#39;ish. (Python: <code>radon</code> and <code>flake8</code>)</li>
 <li><strong>Acceptance Test</strong> (<em>aka</em> <strong>Functional Test</strong>, <strong>End-to-End Test</strong>, <strong>Black Box Test</strong>): A test that verifies the behavior of an application ensure that the product delivered to the end user behaves as expected. Often the behavior is defined in terms of a <em>user story</em>. (<code>Lettuce</code> - a port of Ruby&#39;s <em>Cucumber/Gherkin</em>, <code>selenium</code> - lets you automate testing through a browser)</li>
 <li><strong>Code Profiling</strong>: A test that measures the space and time complexity of various portions of code. (<code>cProfile</code>)</li>
 <li><strong>Performance Test</strong>: A test that aims to measure the performance of an application in a simulated real world environment. Two common types are <strong>Load Testing</strong> where many clients request services from the application, and <strong>Volume Testing</strong> where the application is run under real-world data volume conditions. (<code>JMeter</code> - for load testing)</li>

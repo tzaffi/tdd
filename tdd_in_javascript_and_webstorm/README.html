@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Links | Test Driven Development</title>
+        <title>TDD in Javascript and WebStorm | Test Driven Development</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 0.7.0">
@@ -17,10 +17,10 @@
     
     
     
-    <link rel="next" href="../glossary/README.html" />
+    <link rel="next" href="../links/README.html" />
     
     
-    <link rel="prev" href="../tdd_in_javascript_and_webstorm/README.html" />
+    <link rel="prev" href="../practical_tdd/README.html" />
     
 
         
@@ -32,7 +32,7 @@
 
 
         
-    <div class="book"  data-level="6" data-basepath=".." data-revision="1409060204641">
+    <div class="book"  data-level="5" data-basepath=".." data-revision="1409060204641">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -186,7 +186,7 @@
         </li>
     
         
-        <li class="chapter " data-level="5" data-path="tdd_in_javascript_and_webstorm/README.html">
+        <li class="chapter active" data-level="5" data-path="tdd_in_javascript_and_webstorm/README.html">
             
                 
                     <a href="../tdd_in_javascript_and_webstorm/README.html">
@@ -202,7 +202,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="6" data-path="links/README.html">
+        <li class="chapter " data-level="6" data-path="links/README.html">
             
                 
                     <a href="../links/README.html">
@@ -249,7 +249,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 85.71428571428571%;min-width: 71.42857142857143%;"></div>
+        <div class="inner" style="width: 71.42857142857143%;min-width: 57.142857142857146%;"></div>
     </div>
     <div class="chapters">
     
@@ -265,7 +265,7 @@
     
         <a href="../tdd_in_javascript_and_webstorm/README.html" title="TDD in Javascript and WebStorm" class="chapter done new-chapter" data-progress="5" style="left: 71.42857142857143%;"></a>
     
-        <a href="../links/README.html" title="Links" class="chapter done new-chapter" data-progress="6" style="left: 85.71428571428571%;"></a>
+        <a href="../links/README.html" title="Links" class="chapter  new-chapter" data-progress="6" style="left: 85.71428571428571%;"></a>
     
         <a href="../glossary/README.html" title="Glossary" class="chapter  new-chapter" data-progress="7" style="left: 100%;"></a>
     
@@ -274,34 +274,51 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_2">
+                    <section class="normal" id="section-gitbook_8">
                     
-                        <h1 id="links">Links</h1>
+                        <h1 id="tdd-in-javascript-and-webstorm">TDD in Javascript and WebStorm</h1>
+<h2 id="why-cant-we-just-run-all-the-unit-tests-out-of-an-html-page">Why can&#39;t we just run all the unit tests out of an html page?</h2>
+<h3 id="you-can-but-consider">You can, but consider...</h3>
 <ul>
-<li>Books:<ol>
-<li><a href="http://proquest.safaribooksonline.com.ezproxy.cul.columbia.edu/book/programming/python/9781449365141" target="_blank">Test-Driven Development with Python</a> by Harry J.W. Percival (Safari Online).
-Covers TDD in Django.</li>
-<li><a href="http://www.amazon.com/Testing-Python-Applying-Unit-Acceptance/dp/1118901223/ref=sr_1_3?s=books&amp;ie=UTF8&amp;qid=1407113491&amp;sr=1-3&amp;keywords=test+driven+development+python" target="_blank">Testing Python</a> by David Sale. Covers different testing methodologies in Python, but <em>no Django</em>.</li>
-</ol>
-</li>
-<li>Videos:<ol>
-<li>Great presentation on YouTube <a href="https://www.youtube.com/watch?v=HhwElTL-mdI" target="_blank"><img src="https://img.youtube.com/vi/HhwElTL-mdI/0.jpg" alt="Evan Dorn"></a> by Evan Dorn - Developer/Evangelist</li>
-<li><a href="http://www.lynda.com/Developer-Programming-Foundations-tutorials/Creating-multiple-test-methods/124398/137971-4.html" target="_blank">Linda.com TDD course</a> by Simon Allardice</li>
-</ol>
-</li>
-<li>Online:<ol>
-<li><a href="https://code.google.com/codejam/contest/3014486/dashboard" target="_blank">Google Code Jam example</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Cyclomatic_complexity" target="_blank">Cyclomatic Complexity</a></li>
-<li><a href="http://karma-runner.github.io/0.12/index.html" target="_blank">AngularJS&#39;es Karma Javascript Test Runner</a> -unortunately, it began its life as &quot;Testacular&quot;</li>
-<li><a href="http://jasmine.github.io/" target="_blank">Jasmine BDD Framework for Javascript</a></li>
-<li><a href="http://visionmedia.github.io/mocha/" target="_blank">Mocha Testing Frameworking for Javascript</a></li>
-</ol>
-</li>
-<li>Code:<ol>
-<li><a href="https://github.com/tzaffi/tdd/tree/gh-pages/tdd_basic" target="_blank">Example solutions to Google Code Jam example</a> Both with TDD and without</li>
-</ol>
-</li>
+<li>Back-end Javascript such as Node (&quot;headless&quot; testing)</li>
+<li>All the different browsers and their versions</li>
+<li>Ability to run <strong>ONLY</strong> failing tests</li>
+<li>Additional analytics such as coverage, cyclomatic complexity and other specialized reports</li>
+<li>Managing continuous testing, and testing only current failures</li>
 </ul>
+<h2 id="so-how-do-we-manage-all-of-these-issues">So how do we manage all of these issues?</h2>
+<h3 id="a-use-a-test-runner">A: use a test runner</h3>
+<p><strong>Karma</strong> (by the AngularJS team) has become the most widely accepted platform</p>
+<h2 id="which-test-framework">Which test framework?</h2>
+<h3 id="a-jasmine-still-seems-to-be-the-favorite-but-mocha-is-catching-up-quickly">A: Jasmine still seems to be the favorite, but Mocha is catching up quickly</h3>
+<p>Jasmine has a lot of functionality and the most extensive examples but it forces you into a <strong>BDD</strong> paradigm, and is clunky when it comes to asynchronous support.</p>
+<h2 id="tdd-to-bdd-mapping">TDD to BDD mapping</h2>
+<table>
+<thead>
+<tr>
+<th><strong>TDD</strong></th>
+<th><strong>BDD</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Test Class/Script</td>
+<td>Spec</td>
+</tr>
+<tr>
+<td>Test Group (<em>informal</em>)</td>
+<td><code>describe()</code></td>
+</tr>
+<tr>
+<td>Test method</td>
+<td><code>it()</code></td>
+</tr>
+<tr>
+<td><code>assertXYZ(abc,def)</code></td>
+<td><code>expect(abc).toBeXYZ(def)</code></td>
+</tr>
+</tbody>
+</table>
 
                     
                     </section>
@@ -311,10 +328,10 @@ Covers TDD in Django.</li>
         </div>
 
         
-        <a href="../tdd_in_javascript_and_webstorm/README.html" class="navigation navigation-prev " aria-label="Previous page: TDD in Javascript and WebStorm"><i class="fa fa-angle-left"></i></a>
+        <a href="../practical_tdd/README.html" class="navigation navigation-prev " aria-label="Previous page: Practical TDD"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../glossary/README.html" class="navigation navigation-next " aria-label="Next page: Glossary"><i class="fa fa-angle-right"></i></a>
+        <a href="../links/README.html" class="navigation navigation-next " aria-label="Next page: Links"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
